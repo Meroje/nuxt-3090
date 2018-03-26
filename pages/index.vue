@@ -1,8 +1,14 @@
 <template>
-    <div>Hello</div>
+    <div>Mapping: {{client.mapping}}</div>
 </template>
 
 <script>
 import Model from '~/models/Client';
-export default {}
+export default {
+    data() {
+        return {
+            client: new Client(),
+        }
+    }
+}
 </script>
