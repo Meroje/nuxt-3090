@@ -7,6 +7,6 @@ const clientMapping = {
     baz: 'test',
 };
 
-module.exports = {
+export {
     clientMapping,
 };

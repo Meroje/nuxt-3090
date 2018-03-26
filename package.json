@@ -5,8 +5,8 @@
     "nuxt": "1.4.0"
   },
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start"
+    "dev": "BABEL_ENV=test nuxt",
+    "build": "BABEL_ENV=test nuxt build",
+    "start": "BABEL_ENV=test nuxt start"
   }
 }
