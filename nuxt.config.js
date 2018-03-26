@@ -1,3 +1,8 @@
+import {userMapping} from './config/user.js';
+
 module.exports = {
-    plugins: ['~/plugins/authClient']
+    plugins: ['~/plugins/authClient'],
+    env: {
+        userMapping,
+    }
   }
