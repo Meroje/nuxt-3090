@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "dependencies": {
+    "babel-register": "^6.26.0",
     "nuxt": "1.4.0"
   },
   "scripts": {
